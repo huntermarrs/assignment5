@@ -1,0 +1,159 @@
+#container{
+    top:25%;
+    animation: swing ease-in-out 1s infinite alternate;
+}
+/* container containing the whole word - make it swing back and forth  */
+@keyframes swing {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}
+
+
+#W1{
+    position: absolute;
+    display: inline-block;
+    border: 10px solid black;
+    background-color: black;
+    top: 60px;
+    left: 100px;
+    width: 1px;
+    height: 100px;
+    transform: rotate(-30deg);
+}
+
+#W2{
+position: absolute;
+    display: inline-block;
+border: 10px solid black;
+background-color: black;
+top: 60px;
+left: 152px;
+width: 1px;
+height: 100px;
+transform: rotate(25deg);
+}
+#W3{
+position: absolute;
+    display: inline-block;
+border: 10px solid black;
+background-color: black;
+top: 60px;
+left: 200px;
+width: 1px;
+height: 100px;
+transform: rotate(-25deg);
+}
+#W4{
+position: absolute;
+    display: inline-block;
+border: 10px solid black;
+background-color: black;
+top: 60px;
+left: 252px;
+width: 1px;
+height: 100px;
+transform: rotate(30deg);
+}
+#I{
+    position: absolute;
+        display: inline-block;
+    border: 10px solid black;
+    background-color: black;
+    top: 60px;
+    left: 325px;
+    width: 1px;
+    height: 100px;
+}
+#P1{
+    position: absolute;
+        display: inline-block;
+    border: 10px solid black;
+    top: 70px;
+    left: 385px;
+display: inline-block;
+width: 120px;
+border: 10px black;
+background-color: black;
+   height: 100px; /* as the half of the width */
+   border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+   border-top-right-radius: 110px; /* 100px of height + 10px of border */
+   border: 10px black;
+   border-bottom: 0;
+   transform: rotate(90deg);
+}
+
+#P2{
+    position: absolute;
+        display: inline-block;
+    border: 8px solid black;
+    background-color: black;
+    top: 60px;
+    left: 385px;
+width: 1px;
+height: 200px;
+animation-name: slide-rotate-hor-b-bck;
+}
+
+#E1{
+    position: absolute;
+        display: inline-block;
+    border: 10px solid black;
+    background-color: black;
+    top: 60px;
+    left: 525px;
+    width: 1px;
+    height: 100px;
+    animation: fadeOut ease 8s;
+
+}
+#E2{
+    position: absolute;
+        display: inline-block;
+    border: 10px solid black;
+    background-color: black;
+    top: 35px;
+    left: 550px;
+    width: 1px;
+    height: 50px;
+    transform: rotate(90deg);
+    animation: fadeOut ease 8s;
+
+}
+#E3{
+    position: absolute;
+        display: inline-block;
+    border: 10px solid black;
+    background-color: black;
+    top: 75px;
+    left: 550px;
+    width: 1px;
+    height: 50px;
+    transform: rotate(90deg);
+    animation: fadeOut ease 8s;
+
+}
+#E4{
+    position: absolute;
+        display: inline-block;
+    border: 10px solid black;
+    background-color: black;
+    top: 135px;
+    left: 550px;
+    width: 1px;
+    height: 50px;
+    transform: rotate(90deg);
+    animation: fadeOut ease 8s;
+
+}
+
+.image{
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
